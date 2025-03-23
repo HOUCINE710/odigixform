@@ -1,9 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./index.css";
-import SignupForm from "./components/SignupForm";
-import LoginForm from "./components/LoginForm"; 
 import Container1 from "./components/Container1";
-import PromoSection from "./components/PromoSection"; 
 import Container2 from "./components/Container2";
 import ResetPassword from "./components/formforgetpassword";
 

@@ -16,7 +16,7 @@ const ResetPassword = () => {
   };
 
   return (
-    <div className="flex justify-center items-center min-h-screen bg-gray-100">
+    <div className="flex justify-center items-center min-h-screen bg-gray-100"  style={{ backgroundImage: "url('/images/bg_wallpaper.a8ed10be.webp')" }}>
       <div className="bg-white shadow-lg rounded-2xl p-6 max-w-md w-full">
         {/* العنوان مع الخط السفلي */}
         <h2 className="text-xl font-bold text-center mb-2">Reset your password</h2>
@@ -25,7 +25,7 @@ const ResetPassword = () => {
         {/* نموذج إدخال البريد الإلكتروني */}
         <form className="space-y-4">
           <div>
-            <label className="block text-gray-700 font-medium">Enter your email</label>
+            
             <input
               type="email"
               value={email}
@@ -40,7 +40,7 @@ const ResetPassword = () => {
                   ? "border-red-500"
                   : "border-gray-300"
               }`}
-              placeholder="Enter your email"
+              placeholder="Email"
             />
             {error && <p className="text-red-500 text-sm mt-1">Email is required</p>}
           </div>
