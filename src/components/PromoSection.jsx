@@ -2,8 +2,8 @@ const PromoSection = () => {
   return (
     <div className="flex-1 text-center lg:text-left flex flex-col justify-center relative">
       {/* العنوان الرئيسي */}
-      <h1 className="text-4xl lg:text-5xl font-bold mb-4 text-[rgb(90,71,251)] inline-flex items-center whitespace-nowrap">
-        Join Odigix Today ✨
+      <h1 className="text-4xl lg:text-4xl font-bold mb-4 text-[rgb(90,71,251)] inline-flex items-center whitespace-nowrap">
+        Join Planetgames Today ✨
       </h1>
       
       {/* الفقرة التوضيحية */}
