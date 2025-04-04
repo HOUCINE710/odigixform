@@ -5,6 +5,7 @@ const OrdersComponent = () => {
     { id: 1, productName: "Product A", prix: "$100", status: "Shipped", date: "2025-03-29" },
     { id: 2, productName: "Product B", prix: "$200", status: "Pending", date: "2025-03-28" },
     { id: 3, productName: "Product C", prix: "$150", status: "Delivered", date: "2025-03-27" },
+    
   ];
 
   return (

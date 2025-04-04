@@ -103,7 +103,7 @@ const Header2 = () => {
 
     
      
-      <div className="flex-1 overflow-auto flex flex-col md:flex-row">
+      <div className="flex-1 overflow-auto flex flex-col md:flex-row ml-2">
   <UserProfileSection className="w-full md:w-1/4" />
   <OrdersComponent className="w-full md:w-3/4" />
 </div>

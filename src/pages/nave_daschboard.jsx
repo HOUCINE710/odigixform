@@ -102,7 +102,7 @@ const Header = () => {
       </header>
 
     
-      <div className="flex-1 overflow-auto flex flex-col md:flex-row">
+      <div className="flex-1 overflow-auto flex flex-col  p-2 md:flex-row">
   <UserProfileSection className="w-full md:w-1/4" />
   <HomePage className="w-full md:w-3/4" />
 </div>

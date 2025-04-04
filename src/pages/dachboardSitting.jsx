@@ -101,7 +101,7 @@ const Header1 = () => {
           </div>
         </div>
       </header>
-      <div className="flex-1 overflow-auto flex flex-col md:flex-row">
+      <div className="p-1 flex-1 overflow-auto flex flex-col  p-2 md:flex-row">
   <UserProfileSection className="w-full md:w-1/4" />
   <UserProfileForm className="w-full md:w-3/4" />
 </div>

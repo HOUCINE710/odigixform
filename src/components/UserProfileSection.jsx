@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const UserProfileSection = () => {
   return (
-    <div className="left-0 bottom-0 w-full sm:w-96 bg-white shadow-xl rounded-2xl p-6 flex flex-col gap-4 mt-4 ml-2 mb-6">
+    <div className="left-0 bottom-0 w-full sm:w-96 bg-white shadow-xl rounded-2xl p-6 flex flex-col gap-4 mt-4  mb-6">
 
       <Link
         to="/logout"

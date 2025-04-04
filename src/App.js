@@ -7,14 +7,11 @@ import Header from "./pages/nave_daschboard";
 import Header1 from "./pages/dachboardSitting";
 import Header2 from "./pages/dachboardOrders";
 
-
-
-
-
-
 function App() {
   return (
+<>
     <Router>
+      
       <main
         className="q-page min-h-screen bg-gradient-to-br from-indigo-50 to-indigo-100 relative overflow-hidden"
         style={{ minHeight: 560 }}
@@ -25,6 +22,7 @@ function App() {
         {/* Router Pages */}
      
           <Routes>
+          
             <Route path="/regester" element={<Container2/>} />
             <Route path="/login" element={<Container1 />} />
             <Route path="/forgetpasword" element={<ResetPassword />} />
@@ -32,13 +30,13 @@ function App() {
             <Route path="/my-account/settings" element={<Header1 />} />
             <Route path="/my-account/orders" element={<Header2 />} />
 
-
-
           </Routes>
   
       </main>
     </Router>
+    </>
   );
+ 
 }
 
 export default App;
